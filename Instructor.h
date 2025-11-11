@@ -8,6 +8,7 @@ private:
 string department; 
 int experienceYears; 
 public: 
+Instructor(string department, int experienceYears);
 void display();
 
 };
