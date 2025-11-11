@@ -78,6 +78,9 @@ this->currentStudents=currentStudents;
 
 // ==================== Main Function ====================
 int main() {
+  Person p1 = ("Karim", 16008014); 
+  Student s1= (2, "Comp_Sci");
+  Instructor t1 = ("CS" , 
    cout<<"Course: "<< Course<< endl; 
     cout<<"Max Students: "<< maxStudents << endl; 
     cout<< "Currently Enrolled: "<< name << " "<< id<< endl; 
