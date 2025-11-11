@@ -12,20 +12,8 @@ int maxStudents;
 Student* students; 
 int currentStudents; 
 public: 
+Course(string courseCode, string courseName, int maxStudents, Student* students, int currentStudents);
 void addStudent(const Student&s);
 void displayCourseInfo();
 };
 
-
-
-
-
-
-
-
-
-
-
-
-
-#endif
