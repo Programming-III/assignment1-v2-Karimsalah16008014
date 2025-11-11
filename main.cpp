@@ -68,12 +68,12 @@ this->courseName = courseName;
 this->maxStudents = maxStudents; 
 this->students=students; 
 this->currentStudents=currentStudents;
+
+int addStudent(const Student& s){
+currentStudents+=1; 
 }
-
-
-
-
-
+  void displayCourseInfo(){
+}
 
 
 // ==================== Main Function ====================
@@ -81,6 +81,8 @@ int main() {
   Person p1 = ("Karim", 16008014); 
   Student s1= (2, "Comp_Sci");
   Instructor t1 = ("CS" , 14);
+  Course c1= ("CS012" , "Prog" , 25, 14);
+  
    cout<<"Course: "<< Course<< endl; 
     cout<<"Max Students: "<< maxStudents << endl; 
     cout<< "Currently Enrolled: "<< name << " "<< id<< endl; 
