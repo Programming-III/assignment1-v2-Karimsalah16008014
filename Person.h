@@ -11,7 +11,7 @@ int id;
 public: 
 void display(); 
 
-
+};
 
 
 
