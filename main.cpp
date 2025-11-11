@@ -9,7 +9,10 @@
 using namespace std;
 
 // ==================== Person Class Implementation =========================
-
+Person::Person(string name, int id){
+this->name = name; 
+this->id = id; 
+}
 
 
 
@@ -18,13 +21,22 @@ using namespace std;
 
 
 // ==================== Student Class Implementation ====================
-
+Student::Student(int yearLevel, string major){
+this->yearLevel = yearLevel; 
+this->major = major; 
+}
 
 
 
 
 
 // ==================== Instructor Class Implementation ====================
+Instructor::Instructor(string department, int experienceYears){
+this->department = department; 
+this->experienceYears = experienceYears; 
+
+void display(){
+
 
 
 
