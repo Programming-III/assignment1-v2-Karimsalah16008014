@@ -36,7 +36,8 @@ this->department = department;
 this->experienceYears = experienceYears; 
 
 void display(){
-
+}
+}
 
 
 
@@ -44,7 +45,13 @@ void display(){
 
 
 // ==================== Course Class Implementation ====================
-
+Course::Course(string courseCode, string courseName, int maxStudents, Student* students, int currentStudents){
+this->courseCode = courseCode; 
+this->courseName = courseName; 
+this->maxStudents = maxStudents; 
+this->students=students; 
+this->currentStudents=currentStudents;
+}
 
 
 
@@ -54,7 +61,10 @@ void display(){
 
 // ==================== Main Function ====================
 int main() {
-   
+   cout<<"Course: "<< Course<< endl; 
+    cout<<"Max Students: "<< maxStudents << endl; 
+    cout<< "Currently Enrolled: "<< name << " "<< id<< endl; 
+    cout<< "Instructor info:"<<endl; 
     
     return 0;
 }
