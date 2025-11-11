@@ -10,6 +10,8 @@ string name;
 int id; 
 public: 
 Person(string name, int id);
+string getName(); 
+int getId(); 
 void display(); 
 
 };
