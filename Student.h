@@ -10,6 +10,8 @@ int yearLevel;
 string major; 
 public: 
 Student(int yearLevel, string major);
+string getMajor(); 
+int getyearLevel();
 void display();
 };
 
