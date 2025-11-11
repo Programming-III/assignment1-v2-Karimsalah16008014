@@ -12,7 +12,7 @@ Instructor(string department, int experienceYears);
 int getExperienceYears(); 
 string getDepartment();
 void display();
-
+~Instructor();
 };
 
 #endif
