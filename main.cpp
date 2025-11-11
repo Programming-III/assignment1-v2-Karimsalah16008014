@@ -22,7 +22,7 @@ int getId(){
 }
 
 void display(){
-    cout<< getName << " "<< getId<< endl; 
+    cout<< name << " "<< id<< endl; 
 }
 }
 
