@@ -24,30 +24,34 @@ int getId(){
 void display(){
     cout<< getName << " "<< getId<< endl; 
 }
-
 }
-
-
-
-
-
 
 
 // ==================== Student Class Implementation ====================
 Student::Student(int yearLevel, string major){
 this->yearLevel = yearLevel; 
 this->major = major; 
+
+  string getMajor(){
+  return major; 
 }
 
-
-
-
+int getyearLevel(){
+  return yearLevel; 
+}
+  void display(){
+    cout<< yearLevel << " "<< major << endl; 
+}
+}
 
 // ==================== Instructor Class Implementation ====================
 Instructor::Instructor(string department, int experienceYears){
 this->department = department; 
 this->experienceYears = experienceYears; 
 
+
+
+  
 void display(){
 }
 }
