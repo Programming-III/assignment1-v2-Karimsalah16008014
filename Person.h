@@ -13,7 +13,7 @@ Person(string name, int id);
 string getName(); 
 int getId(); 
 void display(); 
-
+~Person();
 };
 
 #endif
