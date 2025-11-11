@@ -12,6 +12,19 @@ using namespace std;
 Person::Person(string name, int id){
 this->name = name; 
 this->id = id; 
+
+string getName(){
+  return name; 
+}
+
+int getId(){
+  return id; 
+}
+
+void display(){
+    cout<< getName << " "<< getId<< endl; 
+}
+
 }
 
 
