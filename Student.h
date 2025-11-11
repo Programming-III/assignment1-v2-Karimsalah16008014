@@ -13,6 +13,7 @@ Student(int yearLevel, string major);
 string getMajor(); 
 int getyearLevel();
 void display();
+~Student();
 };
 
 #endif
