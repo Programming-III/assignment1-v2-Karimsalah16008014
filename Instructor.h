@@ -9,6 +9,8 @@ string department;
 int experienceYears; 
 public: 
 Instructor(string department, int experienceYears);
+int getExperienceYears(); 
+string getDepartment();
 void display();
 
 };
