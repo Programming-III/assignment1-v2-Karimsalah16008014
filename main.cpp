@@ -49,17 +49,17 @@ Instructor::Instructor(string department, int experienceYears){
 this->department = department; 
 this->experienceYears = experienceYears; 
 
+  string getDepartment(){
+  return department; 
+}
 
-
-  
+int getexperienceYears(){
+  return experienceYears; 
+}
 void display(){
+cout<< department << " "<< experienceYears << endl; 
 }
 }
-
-
-
-
-
 
 // ==================== Course Class Implementation ====================
 Course::Course(string courseCode, string courseName, int maxStudents, Student* students, int currentStudents){
